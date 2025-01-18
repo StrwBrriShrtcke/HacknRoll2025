@@ -1,0 +1,21 @@
+export const domains = {
+    "https://nus.edu.sg": "nus",
+    "https://comp.nus.edu.sg": "nus-soc",
+    "https://sutd.edu.sg": "sutd",
+    "https://ntu.edu.sg": "ntu",
+    "https://singaporetech.edu.sg": "sit",
+    "https://sim.edu.sg": "sim",
+    "https://mit.edu": "mit",
+    "https://cmu.edu": "cmu",
+    "https://berkeley.edu": "berkeley",
+    "https://www.nus.edu.sg": "nus",
+    "https://www.comp.nus.edu.sg": "nus-soc",
+    "https://www.sutd.edu.sg": "sutd",
+    "https://www.ntu.edu.sg": "ntu",
+    "https://www.singaporetech.edu.sg": "sit",
+    "https://www.sim.edu.sg": "sim",
+    "https://www.mit.edu": "mit",
+    "https://www.cmu.edu": "cmu",
+    "https://www.berkeley.edu": "berkeley",
+  };
+  
