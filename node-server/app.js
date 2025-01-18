@@ -1,7 +1,8 @@
 const db = require("better-sqlite3")("site_info_2025-01-08.db");
 db.pragma("journal_mode = WAL");
 const express = require("express");
-const app = require("cors");
+const cors = require("cors");
+const app = express();
 const port = 3000;
 app.use(cors());
 
@@ -32,9 +33,7 @@ app.get(
           AND sites.site =? ORDER BY RANDOM() LIMIT 1`,
       )
       .get(depth, site);
-  },
-);
-const shortestPath = [];
+    const shortestPath = [];
     for (let prevSiteId = from_site_id; prevSiteId; ) {
       const shortestPathSite = db
         .prepare(
