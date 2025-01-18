@@ -13,12 +13,5 @@
   },
   "action": {
     "default_title": "Click to open panel"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://nus.edu.sg/*"],
-      "js": ["start.js"],
-      "css": ["style.css"]
-    }
-  ]
+  }
 }
