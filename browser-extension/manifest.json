@@ -13,5 +13,9 @@
   },
   "action": {
     "default_title": "Click to open panel"
+  },
+  "background": {
+    "service_worker": "service-worker.js",
+    "type": "module"
   }
 }
