@@ -1,1 +1,122 @@
 /*Put style here*/
+
+#name {
+    color: #deaffa;
+    text-align: center;
+    text-shadow:
+      -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    border-bottom-style: dotted;
+    border-color: black;
+    border-width: 3px;
+    padding: 6px;
+  }
+  
+  #caption {
+    color: #f58420;
+    text-shadow:
+      -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    text-align: center;
+  }
+  
+  #timer {
+    border: dotted 3px;
+    border-color: black;
+    text-align: center;
+    font-size: 16px;
+    background-color: white;
+    margin: auto;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+  }
+  
+  .buttons {
+    display: block;
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px 3px 3px 2px;
+    width: 15em;
+    height: 2em;
+    text-shadow:
+      -1px 0 black,
+      0 1px black,
+      1px 0 black,
+      0 -1px black;
+    background-color: #f58420;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    color: white;
+    line-height: 2;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 900;
+    margin: 6px;
+  }
+  
+  .ansButtons {
+    display: block;
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px 2px 2px 2px;
+    cursor: pointer;
+    background-color: white;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    font-size: 12px;
+    margin: 6px;
+  }
+  
+  .linksClicked {
+    font-size: 16px;
+  }
+  
+  #question {
+    margin: 10px;
+    font-size: 13px;
+    background-color: white;
+    padding: 10px;
+  }
+  
+  #giveUp {
+    position: absolute;
+    top: 5px;
+    width: 50px;
+    height: 15px;
+    font-size: 8px;
+  }
+  
+  .buttons:hover {
+    border-color: #333;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+    border-width: 3px 2px 2px 3px;
+    color: white;
+  }
+  
+  .wrong {
+    background: red;
+  }
+  
+  .correct {
+    background: green;
+  }
+  
+  body {
+    background-color: #c2f5b0;
+    background-image: url("https://www.transparenttextures.com/patterns/arches.png");
+  }
+  .disableAns {
+    pointer-events: none;
+  }
+  
+  .disableClick {
+    pointer-events: none;
+    background-color: grey;
+  }
+  

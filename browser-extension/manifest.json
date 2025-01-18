@@ -1,18 +1,18 @@
 {
-  "manifest_version": 3,
   "name": "UXplorer",
-"description": "UXplorer is the ultimate test of UI/UX efficiency. You are given a question, and your only goal is to find the answer—before time runs out. Every second you waste is a second closer to failure.
+  "description": "Enter UXplorer, the ultimate test of UI/UX efficiency. You are given a question, and your only goal is to find the answer—before time runs out. Every second you waste is a second closer to failure.
 
-The interface you’re navigating is either a masterpiece of design… or a chaotic labyrinth that traps you in frustration. With every click, the pressure mounts. Can you find the information you seek in record time, or will the interface overwhelm you?
+The interface you're navigating is either a masterpiece of design… or a chaotic labyrinth that traps you in frustration. With every click, the pressure mounts. Can you find the information you seek in record time, or will the interface overwhelm you?
 
   In this ruthless trial, only the quickest, most intuitive designs will prevail. If you fail, the experience isn’t just poor—it’s unforgiving. Are you ready to face the ultimate UI/UX reckoning?",
   "version": "1.0",
   "manifest_version": 3,
+
   "permissions": [
     "sidePanel",
     "tabs"
   ],
-  "side_panel": {
+    "side_panel": {
     "default_path": "start.html"
   },
   "action": {
@@ -20,17 +20,9 @@ The interface you’re navigating is either a masterpiece of design… or a chao
   },
   "content_scripts": [
     {
-"matches": ["https://nus.edu.sg/*", 
- "https://comp.nus.edu.sg/*",
-  "https://sutd.edu.sg/*",
-  "https://ntu.edu.sg/*",
-  "https://singaporetech.edu.sg/*",
-  "https://sim.edu.sg/*",
-  "https://mit.edu/*",
-  "https://cmu.edu/*",
-  "https://berkeley.edu/*"],
+      "matches": ["https://nus.edu.sg/*"],
       "js": ["start.js"],
-      "css": ["style.css"] 
+      "css": ["style.css"]
     }
   ]
 }
