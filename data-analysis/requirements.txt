@@ -1,0 +1,4 @@
+matplotlib==3.10.0
+matplotlib-inline==0.1.7
+numpy==2.2.1
+pandas==2.2.3
