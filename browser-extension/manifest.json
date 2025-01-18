@@ -20,9 +20,17 @@ The interface you’re navigating is either a masterpiece of design… or a chao
   },
   "content_scripts": [
     {
-
+"matches": ["https://nus.edu.sg/*", 
+ "https://comp.nus.edu.sg/*",
+  "https://sutd.edu.sg/*",
+  "https://ntu.edu.sg/*",
+  "https://singaporetech.edu.sg/*",
+  "https://sim.edu.sg/*",
+  "https://mit.edu/*",
+  "https://cmu.edu/*",
+  "https://berkeley.edu/*"],
       "js": ["start.js"],
-      "css": ["style.css"]
+      "css": ["style.css"] 
     }
   ]
 }
