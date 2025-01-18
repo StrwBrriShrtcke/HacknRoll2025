@@ -17,12 +17,5 @@ The interface you're navigating is either a masterpiece of design… or a chaoti
   },
   "action": {
     "default_title": "Click to open panel"
-  },
-  "content_scripts": [
-    {
-      "matches": ["https://nus.edu.sg/*"],
-      "js": ["start.js"],
-      "css": ["style.css"]
-    }
-  ]
+  }
 }
