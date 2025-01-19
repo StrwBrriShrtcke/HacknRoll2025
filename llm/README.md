@@ -72,3 +72,5 @@ $ ollama pull gemma2:9b
 ```
 
 It will create questions based on the collected text content in SQLite data using Ollama AI models and classify each webpage into different categories. 
+
+Generates up to 3 questions per webpage. Correct answers must be direct quotes from text, while wrong answers are AI-generated and must not appear in source text.
