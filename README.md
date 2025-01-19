@@ -64,5 +64,11 @@ To keep the scope realistic, we make these concessions:
 - measure only up to 2 links deep (otherwise too much data and pointless to click so far away).
 
 # Data Analysis
+To showcase some of the reasons behind this project, we have conducted exploratory data analysis on the database created after web-scraping. These visualisations are included in the browser extension.
+- data analysis was done in a jupyter notebook
+- matplotlib used to generate data visualisations\
+- analysis focused on the following:
+  1. Comparisons between universities
+  2. Key correlations and patterns
 
 # Appendix
