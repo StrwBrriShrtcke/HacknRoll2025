@@ -17,6 +17,12 @@ sites = {
     "nus": "https://www.nus.edu.sg/",
     "nus-soc": "https://www.comp.nus.edu.sg/",
     "sutd": "https://www.sutd.edu.sg/",
+    "ntu":"https://www.ntu.edu.sg/",
+    "sit":"https://www.singaporetech.edu.sg/",
+    "sim":"https://www.sim.edu.sg/",
+    "mit":"https://www.mit.edu/",
+    "cmu":"https://www.cmu.edu/",
+    "berkeley":"https://www.berkeley.edu/",
 }
 
 # Config

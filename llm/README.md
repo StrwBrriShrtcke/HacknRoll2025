@@ -68,7 +68,7 @@ Install [Ollama](https://ollama.com/download).
 ### Running the LLM prompting
 
 ```bash
-$ ollama pull llama3.1:8b  
+$ ollama pull gemma2:9b  
 ```
 
 It will create questions based on the collected text content in SQLite data using Ollama AI models and classify each webpage into different categories. 
