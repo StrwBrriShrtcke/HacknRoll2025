@@ -84,7 +84,9 @@ const intervalId = setInterval(() => {
     clearInterval(intervalId);
     document
       .getElementById("ansFoundAt")
-      .append(`The answer could have been found at page ${loaded_url}`);
+      .append(
+        `The answer could have been found at page ${loaded_url} and the correct answer is ${correct}`,
+      );
     document.getElementById("ansFoundAt").style = "display: block";
     document.getElementById("timesUpDialog").style = "display: block";
     document.querySelector("dialog").showModal();
@@ -136,7 +138,9 @@ const buttons = responses.map((response, index) => {
     } else if (timeLeft === 0) {
       document
         .getElementById("ansFoundAt")
-        .append(`The answer could have been found at page ${loaded_url}`);
+        .append(
+          `The answer could have been found at page ${loaded_url} and the correct answer is ${correct}`,
+        );
       document.getElementById("ansFoundAt").style = "display: block";
     } else {
       attemptsLeft--;
@@ -148,7 +152,9 @@ const buttons = responses.map((response, index) => {
       document.getElementById("loseDialogDisplay").style = "display: block";
       document
         .getElementById("ansFoundAt")
-        .append(`The answer can be found at page ${loaded_url}`);
+        .append(
+          `The answer can be found at page ${loaded_url} and the correct answer is ${correct}`,
+        );
       document.getElementById("ansFoundAt").style = "display: block";
       document.querySelector("dialog").showModal();
     }
