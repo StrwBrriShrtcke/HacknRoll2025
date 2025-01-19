@@ -1,6 +1,6 @@
 /*Put style here*/
 #name {
-    color: #deaffa;
+    color: #83b0ff;
     text-align: center;
     text-shadow:
       -1px 0 black,
@@ -14,12 +14,8 @@
   }
   
   #caption {
-    color: #f58420;
-    text-shadow:
-      -1px 0 black,
-      0 1px black,
-      1px 0 black,
-      0 -1px black;
+    color: #8274ff;
+    
     text-align: center;
   }
   
@@ -48,7 +44,7 @@
       0 1px black,
       1px 0 black,
       0 -1px black;
-    background-color: #f58420;
+    background-color: #8274ff;
     background-image: url("https://www.transparenttextures.com/patterns/arches.png");
     color: white;
     line-height: 2;
@@ -107,7 +103,7 @@
   }
   
   body {
-    background-color: #c2f5b0;
+    background-color: #e1f3fa;
     background-image: url("https://www.transparenttextures.com/patterns/arches.png");
   }
   .disableAns {
