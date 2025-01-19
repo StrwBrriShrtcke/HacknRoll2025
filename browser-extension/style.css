@@ -1,5 +1,8 @@
 /*Put style here*/
+<<<<<<< Updated upstream
 
+=======
+>>>>>>> Stashed changes
 #name {
     color: #deaffa;
     text-align: center;
@@ -120,3 +123,22 @@
     background-color: grey;
   }
   
+  .back-button {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1000;
+    background-color: #ffb84d;
+    color: black;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+  }
+
+  .back-button:hover {
+    background-color:  #ff9900; /* Darker shade on hover */
+  }
